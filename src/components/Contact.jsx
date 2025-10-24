@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Button } from '@/components/ui/button';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import { useToast } from '@/components/ui/use-toast';
 const Contact = () => {
   const {
     ref,
@@ -12,15 +11,8 @@ const Contact = () => {
     triggerOnce: true,
     threshold: 0.2
   });
-  const {
-    toast
-  } = useToast();
   const handleSubmit = e => {
     e.preventDefault();
-    toast({
-      title: "🚧 Feature Incomplete",
-      description: "This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀"
-    });
   };
   return <section ref={ref} id="contact" className="py-20 px-4">
             <div className="container mx-auto max-w-6xl">
