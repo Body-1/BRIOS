@@ -6,10 +6,10 @@ const TeamShowcase = () => {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
     const images = [
-        "/src/images/person-1.jpg",
-        "/src/images/person-2.jpg",
-        "/src/images/person-3.jpeg",
-        "/src/images/person-4.jpg",
+        "https://i.ibb.co/8DRdVr36/person-1.jpg",
+        "https://i.ibb.co/kVncpfXP/person-2.jpg",
+        "https://i.ibb.co/sd7PJFjt/person-3.jpg",
+        "https://i.ibb.co/WvPMsfsW/person-4.webp",
     ];
 
     return (
