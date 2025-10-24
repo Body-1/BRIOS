@@ -7,10 +7,10 @@ const Team = () => {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
     const teamMembers = [
-        { name: "Alex Johnson", role: "CEO & Founder", image: "https://images.unsplash.com/photo-1560250097-0b93528c311a" },
-        { name: "Maria Garcia", role: "Head of Marketing", image: "https://images.unsplash.com/photo-1580489944761-15a19d654956" },
-        { name: "James Brown", role: "Lead SEO Strategist", image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5" },
-        { name: "Emily White", role: "Social Media Manager", image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330" },
+        { name: "Mohammed Samy", role: "CEO & Founder", image: "https://i.ibb.co/8DRdVr36/person-1.jpg" },
+        { name: "Abdel Rahman", role: "Head of Marketing", image: "https://i.ibb.co/kVncpfXP/person-2.jpg" },
+        { name: "Moshref Elbanna", role: "Lead SEO Strategist", image: "https://i.ibb.co/sd7PJFjt/person-3.jpg" },
+        { name: "Ahmed Mohammed", role: "Social Media Manager", image: "https://i.ibb.co/WvPMsfsW/person-4.webp" },
     ];
     
     return (
