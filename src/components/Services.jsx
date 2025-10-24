@@ -54,9 +54,6 @@ const Services = () => {
               </div>
               <h3 className="text-xl font-bold mb-4">{service.title}</h3>
               <p className="text-gray-400 leading-relaxed">{service.description}</p>
-              <div className="mt-6">
-                <img loading="lazy" alt={`${service.title} illustration`} className="w-full h-48 object-cover rounded-lg" src="/src/images/main.jpg" />
-              </div>
             </motion.div>)}
         </div>
       </div>
