@@ -65,7 +65,7 @@ const ExpertSolutions = () => {
         }} transition={{
           duration: 0.8
         }} className="relative">
-            <img loading="lazy" alt="Team collaboration in modern office" className="w-full h-[500px] object-cover rounded-2xl" src="https://ibb.co/ksLfzgJD" />
+            <img loading="lazy" alt="Team collaboration in modern office" className="w-full h-[500px] object-cover rounded-2xl" src="https://i.ibb.co/ksLfzgJD/688525261865bcc1d64952e7-About-Image.jpg" />
           </motion.div>
         </div>
       </div>
