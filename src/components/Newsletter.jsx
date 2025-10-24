@@ -10,10 +10,6 @@ const Newsletter = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        toast({
-            title: "🎉 Subscribed!",
-            description: "Thanks for subscribing to our newsletter! (This is a demo)",
-        });
     };
 
     return (
